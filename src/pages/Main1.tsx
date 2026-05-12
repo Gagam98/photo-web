@@ -1,9 +1,12 @@
 import { Suspense } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows } from '@react-three/drei';
 import TrafficLightPole from '../components/TrafficLightPole';
 
 export default function Main1() {
+  const navigate = useNavigate();
+
   return (
     // We use a dark background to make the AdditiveBlending neon signs pop brilliantly
     <div className="relative w-full h-[100dvh] bg-[#0a0a0a] overflow-hidden flex items-center justify-center cursor-grab active:cursor-grabbing">
@@ -17,7 +20,7 @@ export default function Main1() {
         <Environment preset="city" />
 
         <Suspense fallback={null}>
-          <TrafficLightPole />
+          <TrafficLightPole onLightClick={() => navigate('/photo')} />
           
           {/* Subtle ground shadow for depth */}
           <ContactShadows position={[0, -6, 0]} opacity={0.4} scale={20} blur={2} far={10} />

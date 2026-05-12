@@ -1,6 +1,6 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { useTexture, RoundedBox } from '@react-three/drei';
+import { useTexture, RoundedBox, Html } from '@react-three/drei';
 import * as THREE from 'three';
 
 // Helper function to create a shape with rounded corners
@@ -48,8 +48,53 @@ const createRoundedShape = (shapeType: string) => {
   return shape;
 };
 
+const HudTooltip = ({ hovered, title, subtitle, actionText, position = [0, 0, 0], direction = 'right' }: any) => {
+  return (
+    <Html position={position} center zIndexRange={[100, 0]}>
+      <div 
+        className={`transition-all duration-500 pointer-events-none absolute top-1/2 -translate-y-1/2 ${
+          direction === 'left' 
+            ? `right-[120px] ${hovered ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4'}`
+            : `left-[120px] ${hovered ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-4'}`
+        }`}
+        style={{ width: '320px' }}
+      >
+        {/* Connecting Line from center of object to the box */}
+        <div className={`absolute top-1/2 w-[120px] h-[1px] bg-white/40 -translate-y-1/2 ${
+          direction === 'left' ? '-right-[120px]' : '-left-[120px]'
+        }`} />
+        
+        {/* Main HUD Box */}
+        <div className="relative border border-white/40 p-4 bg-black/10 backdrop-blur-sm text-white font-mono text-[11px] tracking-widest uppercase shadow-[0_0_30px_rgba(255,255,255,0.03)]">
+          {/* Corner Markers (Crosshairs) */}
+          <div className="absolute -top-[3px] -left-[3px] w-2 h-2 border-t-2 border-l-2 border-white" />
+          <div className="absolute -top-[3px] -right-[3px] w-2 h-2 border-t-2 border-r-2 border-white" />
+          <div className="absolute -bottom-[3px] -left-[3px] w-2 h-2 border-b-2 border-l-2 border-white" />
+          <div className="absolute -bottom-[3px] -right-[3px] w-2 h-2 border-b-2 border-r-2 border-white" />
+          
+          {/* Top Header Row */}
+          <div className="flex justify-between items-center mb-6 border-b border-white/20 pb-2">
+            <span className="opacity-60 text-[9px]">{title}</span>
+            <span className="text-white font-bold">{subtitle}</span>
+          </div>
+          
+          {/* Content Body */}
+          <div className="flex flex-col gap-1.5 text-right">
+            <span className="opacity-50 text-[9px] font-bold">ACTION REQUIRED</span>
+            <span className="font-medium text-sm tracking-widest text-white">{actionText}</span>
+          </div>
+          
+          {/* Subtle scanning/glitch overlay line */}
+          <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/5 to-transparent h-full w-full opacity-50 mix-blend-overlay pointer-events-none" />
+        </div>
+      </div>
+    </Html>
+  );
+};
+
 // Component for individual signs with physical backboards, inner borders, and solid-color silhouettes
-const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor, iconColor, iconScaleMultiplier = 1 }: any) => {
+const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor, iconColor, iconScaleMultiplier = 1, title, subtitle, actionText, onClick, direction = 'right' }: any) => {
+  const [hovered, setHovered] = useState(false);
   const texture = useTexture(textureUrl) as THREE.Texture;
   
   const baseShape = React.useMemo(() => createRoundedShape(shape), [shape]);
@@ -59,7 +104,14 @@ const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor,
   const fillScale = shape === 'circle' ? 0.88 : 0.82;
 
   return (
-    <group position={position} rotation={boardRotation} scale={scale}>
+    <group 
+      position={position} 
+      rotation={boardRotation} 
+      scale={scale}
+      onClick={onClick}
+      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); if (onClick) document.body.style.cursor = 'pointer'; }}
+      onPointerOut={(e) => { setHovered(false); if (onClick) document.body.style.cursor = 'default'; }}
+    >
       
       {/* 3D Base Sign Board (Outer Color) */}
       <mesh position={[0, 0, -0.04]}>
@@ -91,12 +143,23 @@ const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor,
         />
       </mesh>
 
+      {/* HUD Tooltip for the sign */}
+      <HudTooltip 
+        hovered={hovered} 
+        title={title} 
+        subtitle={subtitle} 
+        actionText={actionText}
+        position={[0, 0, 0]} // Positioned exactly at the sign center
+        direction={direction}
+      />
+
     </group>
   );
 };
 
 // Component for the Food Traffic Light
-const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1] }: any) => {
+const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, direction = 'right' }: any) => {
+  const [hovered, setHovered] = useState(false);
   const tomatoTex = useTexture('/tomato_slice.png');
   const lemonTex = useTexture('/lemon_slice.png');
   const limeTex = useTexture('/lime_slice.png');
@@ -115,7 +178,14 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1] }: any) => {
   const hoodMaterial = <meshStandardMaterial color="#111" roughness={0.8} />;
 
   return (
-    <group position={position} rotation={rotation} scale={scale}>
+    <group 
+      position={position} 
+      rotation={rotation} 
+      scale={scale} 
+      onClick={onClick}
+      onPointerOver={(e) => { e.stopPropagation(); setHovered(true); if (onClick) document.body.style.cursor = 'pointer'; }}
+      onPointerOut={(e) => { setHovered(false); if (onClick) document.body.style.cursor = 'default'; }}
+    >
       
       {/* Main Yellow Box (Rounded) */}
       <RoundedBox args={[1.2, 3.6, 0.3]} radius={0.15} smoothness={2} position={[0, 0, 0]}>
@@ -161,11 +231,21 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1] }: any) => {
         </mesh>
       </group>
       
+      {/* HUD Tooltip overlay (Stripe BFCM Style) */}
+      <HudTooltip 
+        hovered={hovered}
+        title="MODULE 01"
+        subtitle="INTERACTIVE 3D"
+        actionText="CLICK TO VIEW GALLERY"
+        position={[0, 0, 0]} // Positioned exactly at the center of the traffic light
+        direction={direction}
+      />
+
     </group>
   );
 };
 
-export default function TrafficLightPole() {
+export default function TrafficLightPole({ onLightClick }: { onLightClick?: () => void }) {
   const poleRef = useRef<THREE.Group>(null);
 
   useFrame((state) => {
@@ -187,7 +267,15 @@ export default function TrafficLightPole() {
       </mesh>
 
       {/* Food Traffic Light - Left side embedded into the pole, facing RIGHT (+X) */}
-      <FoodTrafficLight position={[0.33, 1.7, -0.7]} rotation={[0, Math.PI / 2, 0]} scale={[1.2, 1.2, 1.2]} />
+      <FoodTrafficLight 
+        position={[0.33, 1.7, -0.7]} 
+        rotation={[0, Math.PI / 2, 0]} 
+        scale={[1.2, 1.2, 1.2]} 
+        onClick={(e: any) => {
+          e.stopPropagation();
+          onLightClick?.();
+        }}
+      />
 
       {/* LEFT SIGNS ASSEMBLY - Rotated 45 degrees inward to gather them (inner angle 45, outer 135) */}
       <group rotation={[0, Math.PI / 4, 0]}>
@@ -232,6 +320,11 @@ export default function TrafficLightPole() {
           bgColor="#2563eb"
           iconColor="#ffffff"
           iconScaleMultiplier={1.3}
+          title="MODULE 02"
+          subtitle="MUSEUM ARTIFACT"
+          actionText="COMING SOON"
+          onClick={(e: any) => { e.stopPropagation(); /* onMuseumClick */ }}
+          direction="left"
         />
 
         {/* Memory Sign (Brain) */}
@@ -243,6 +336,11 @@ export default function TrafficLightPole() {
           shape="triangle"
           bgColor="#f97316"
           iconColor="#000000"
+          title="MODULE 03"
+          subtitle="MEMORY ARCHIVE"
+          actionText="COMING SOON"
+          onClick={(e: any) => { e.stopPropagation(); /* onMemoryClick */ }}
+          direction="left"
         />
       </group>
 
@@ -255,6 +353,10 @@ export default function TrafficLightPole() {
         shape="diamond"
         bgColor="#16a34a"
         iconColor="#ffffff"
+        title="MODULE 04"
+        subtitle="GAMING HUD"
+        actionText="COMING SOON"
+        onClick={(e: any) => { e.stopPropagation(); /* onGameClick */ }}
       />
 
     </group>
