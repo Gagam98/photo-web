@@ -94,7 +94,7 @@ export default function PhotoCarousel() {
   };
 
   useGSAP(() => {
-    const items = gsap.utils.toArray('.gallery-item');
+    const items = gsap.utils.toArray('.gallery-item') as HTMLElement[];
     const totalItems = items.length;
     
     // Initialize all items at the top position

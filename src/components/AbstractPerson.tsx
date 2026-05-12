@@ -1,7 +1,6 @@
-import React, { useRef, useState, Suspense } from 'react';
+import { useRef, useState, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, Html } from '@react-three/drei';
-import * as THREE from 'three';
 import { motion, AnimatePresence } from 'framer-motion';
 import { BrainCircuit, Heart, Glasses } from 'lucide-react';
 
@@ -49,7 +48,7 @@ const PersonPartMarker = ({ id, label, icon: Icon, colorClasses, activePart, set
 };
 
 const ThermalBust = ({ activePart, setActivePart }: any) => {
-  const groupRef = useRef<any>();
+  const groupRef = useRef<any>(null);
   
   // Make the entire model gently breathe/float to feel alive
   useFrame((state) => {

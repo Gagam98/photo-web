@@ -1,28 +1,28 @@
-import React, { useRef, useState, useEffect, Suspense } from 'react';
+import { useRef, useState, useEffect, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
-import { useTexture, Environment, ContactShadows, OrbitControls } from '@react-three/drei';
+import { useTexture, ContactShadows, OrbitControls } from '@react-three/drei';
 import * as THREE from 'three';
 import gsap from 'gsap';
-import { Play, Pause, SkipForward, SkipBack, Volume2, Maximize2 } from 'lucide-react';
 
 // --- 3D Components ---
 
 // 1. CD Component
-const CD = ({ position, rotation, textureUrl, index, selectedCD, onSelect, isPlaying }) => {
+const CD = ({ position, rotation, textureUrl, index, selectedCD, onSelect, isPlaying }: any) => {
   const groupRef = useRef<THREE.Group>(null);
   
   // Use React Three Fiber's built-in texture loader which works perfectly with local images
-  const texture = useTexture(textureUrl);
+  const texture = useTexture(textureUrl) as THREE.Texture;
   texture.colorSpace = THREE.SRGBColorSpace;
 
   const isSelected = selectedCD === index;
 
   useEffect(() => {
-    if (!groupRef.current) return;
+    const group = groupRef.current;
+    if (!group) return;
 
     if (isSelected) {
       // 1. Move to the front of the player (Player is at x=2.5, y=0)
-      gsap.to(groupRef.current.position, {
+      gsap.to(group.position, {
         x: 2.5,
         y: 0,
         z: 1.5, // Float in front of the player
@@ -30,7 +30,7 @@ const CD = ({ position, rotation, textureUrl, index, selectedCD, onSelect, isPla
         ease: "power2.inOut",
       });
       // Flatten CD (Facing the camera)
-      gsap.to(groupRef.current.rotation, {
+      gsap.to(group.rotation, {
         x: Math.PI / 2,
         y: 0,
         z: 0,
@@ -38,7 +38,7 @@ const CD = ({ position, rotation, textureUrl, index, selectedCD, onSelect, isPla
         ease: "power2.inOut",
         onComplete: () => {
           // 2. Drop into player slot
-          gsap.to(groupRef.current.position, {
+          gsap.to(group.position, {
             z: 0.15, // Insert into player
             duration: 0.6,
             ease: "power2.in",
@@ -47,7 +47,7 @@ const CD = ({ position, rotation, textureUrl, index, selectedCD, onSelect, isPla
       });
     } else {
       // Return to original slot
-      gsap.to(groupRef.current.position, {
+      gsap.to(group.position, {
         x: position[0],
         y: position[1],
         z: position[2],
@@ -55,7 +55,7 @@ const CD = ({ position, rotation, textureUrl, index, selectedCD, onSelect, isPla
         ease: "power3.out",
         delay: selectedCD !== null ? 0.3 : 0 // Wait a bit if another CD was selected
       });
-      gsap.to(groupRef.current.rotation, {
+      gsap.to(group.rotation, {
         x: rotation[0],
         y: rotation[1],
         z: rotation[2],
@@ -141,7 +141,7 @@ const CDPlayer = () => {
 };
 
 // 3. Scene Container
-const Scene = ({ selectedCD, setSelectedCD, tracks, isPlaying }) => {
+const Scene = ({ selectedCD, setSelectedCD, tracks, isPlaying }: any) => {
   return (
     <>
       <ambientLight intensity={1.2} />
@@ -208,8 +208,6 @@ export default function Home() {
       setIsPlaying(false);
     }
   }, [selectedCD]);
-
-  const currentTrack = selectedCD !== null ? tracks[selectedCD] : null;
 
   return (
     <div className="w-full h-[100dvh] bg-[#0a0a0a] overflow-hidden relative font-sans">

@@ -50,7 +50,7 @@ const createRoundedShape = (shapeType: string) => {
 
 // Component for individual signs with physical backboards, inner borders, and solid-color silhouettes
 const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor, iconColor, iconScaleMultiplier = 1 }: any) => {
-  const texture = useTexture(textureUrl);
+  const texture = useTexture(textureUrl) as THREE.Texture;
   
   const baseShape = React.useMemo(() => createRoundedShape(shape), [shape]);
 
