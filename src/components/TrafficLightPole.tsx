@@ -110,7 +110,7 @@ const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor,
       scale={scale}
       onClick={onClick}
       onPointerOver={(e) => { e.stopPropagation(); setHovered(true); if (onClick) document.body.style.cursor = 'pointer'; }}
-      onPointerOut={(e) => { setHovered(false); if (onClick) document.body.style.cursor = 'default'; }}
+      onPointerOut={() => { setHovered(false); if (onClick) document.body.style.cursor = 'default'; }}
     >
       
       {/* 3D Base Sign Board (Outer Color) */}
@@ -184,7 +184,7 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, dire
       scale={scale} 
       onClick={onClick}
       onPointerOver={(e) => { e.stopPropagation(); setHovered(true); if (onClick) document.body.style.cursor = 'pointer'; }}
-      onPointerOut={(e) => { setHovered(false); if (onClick) document.body.style.cursor = 'default'; }}
+      onPointerOut={() => { setHovered(false); if (onClick) document.body.style.cursor = 'default'; }}
     >
       
       {/* Main Yellow Box (Rounded) */}
