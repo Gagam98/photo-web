@@ -110,7 +110,7 @@ export default function PhotoCarousel() {
 
     const duration = 1;
 
-    items.forEach((item, i) => {
+    items.forEach((item: any, i) => {
       const itemTl = gsap.timeline();
       
       if (i === 0) {
