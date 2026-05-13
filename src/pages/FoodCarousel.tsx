@@ -65,7 +65,7 @@ const PHOTO_DATA = [
   }
 ];
 
-export default function PhotoCarousel() {
+export default function FoodCarousel() {
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Active Photo Data State

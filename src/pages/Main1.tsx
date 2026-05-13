@@ -20,7 +20,10 @@ export default function Main1() {
         <Environment preset="city" />
 
         <Suspense fallback={null}>
-          <TrafficLightPole onLightClick={() => navigate('/photo')} />
+          <TrafficLightPole 
+            onLightClick={() => navigate('/food')} 
+            onMemoryClick={() => navigate('/memory')}
+          />
           
           {/* Subtle ground shadow for depth */}
           <ContactShadows position={[0, -6, 0]} opacity={0.4} scale={20} blur={2} far={10} />

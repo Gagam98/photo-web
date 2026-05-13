@@ -235,7 +235,7 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, dire
       <HudTooltip 
         hovered={hovered}
         title="MODULE 01"
-        subtitle="INTERACTIVE 3D"
+        subtitle="FOOD CAROUSEL"
         actionText="CLICK TO VIEW GALLERY"
         position={[0, 0, 0]} // Positioned exactly at the center of the traffic light
         direction={direction}
@@ -245,7 +245,7 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, dire
   );
 };
 
-export default function TrafficLightPole({ onLightClick }: { onLightClick?: () => void }) {
+export default function TrafficLightPole({ onLightClick, onMemoryClick }: { onLightClick?: () => void, onMemoryClick?: () => void }) {
   const poleRef = useRef<THREE.Group>(null);
 
   useFrame((state) => {
@@ -338,8 +338,8 @@ export default function TrafficLightPole({ onLightClick }: { onLightClick?: () =
           iconColor="#000000"
           title="MODULE 03"
           subtitle="MEMORY ARCHIVE"
-          actionText="COMING SOON"
-          onClick={(e: any) => { e.stopPropagation(); /* onMemoryClick */ }}
+          actionText="CLICK TO VIEW GALLERY"
+          onClick={(e: any) => { e.stopPropagation(); onMemoryClick?.(); }}
           direction="left"
         />
       </group>
