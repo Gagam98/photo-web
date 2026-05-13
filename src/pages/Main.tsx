@@ -4,7 +4,7 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment, ContactShadows } from '@react-three/drei';
 import TrafficLightPole from '../components/TrafficLightPole';
 
-export default function Main1() {
+export default function Main() {
   const navigate = useNavigate();
 
   return (

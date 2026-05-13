@@ -1,4 +1,4 @@
-import { useRef, useMemo } from 'react';
+import { useRef, useMemo, useState } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Image, ScrollControls, useScroll } from '@react-three/drei';
 import { useNavigate } from 'react-router-dom';
@@ -18,33 +18,67 @@ const baseCardsData = [
 const CARD_WIDTH = 4;
 const CARD_HEIGHT = 5.5;
 
-const MemoryCard = ({ url, index, totalCards }: any) => {
+const MemoryCard = ({ url, index, totalCards, activeCard, setActiveCard }: any) => {
   const groupRef = useRef<THREE.Group>(null);
   const scroll = useScroll();
+  const isActive = activeCard === index;
   
-  useFrame(() => {
+  const prevP = useRef<number>(0);
+
+  useFrame((_, delta) => {
     if (!groupRef.current) return;
     
-    // 무한 루프 래핑
+    // 무한 루프 래핑 (기본 스크롤 궤도 계산)
     const scrollOffset = scroll.offset;
     let p = (index / totalCards) - scrollOffset;
     p = p - Math.floor(p);
     
-    // 시작: 왼쪽 아래 (p=0일 때 X=-16, Y=-16)
-    // 끝: 오른쪽 위 (p=1일 때 X=34, Y=34)
-    const targetX = p * 50 - 16;
-    const targetY = p * 50 - 16;
-    const targetZ = -p * 40 + 5; 
+    // p값이 0과 1 사이를 점프할 때(루프될 때) 댐핑에 의해 거꾸로 날아가는 현상 방지
+    const isWrapAround = Math.abs(p - prevP.current) > 0.5;
+    prevP.current = p;
     
-    // 사진이 원본과 동일하게 아주 살짝만 왼쪽을 바라보도록 얕은 각도(-Math.PI / 16) 적용
-    const targetRotationY = -Math.PI / 16;
+    const normalX = p * 50 - 16;
+    const normalY = p * 50 - 16;
+    const normalZ = -p * 40 + 5; 
+    const normalRotY = -Math.PI / 16;
     
-    groupRef.current.position.set(targetX, targetY, targetZ);
-    groupRef.current.rotation.y = targetRotationY;
+    // 확대(Zoom) 상태일 때의 타겟 좌표 (너무 크게 확대되지 않도록 Z=0으로 조정)
+    const targetX = isActive ? 0 : normalX;
+    const targetY = isActive ? 0 : normalY;
+    const targetZ = isActive ? 0 : normalZ;
+    const targetRotY = isActive ? 0 : normalRotY;
+    
+    // 다른 카드가 확대되었을 때 현재 카드를 숨기기 위한 스케일 처리
+    const isOtherCardActive = activeCard !== null && !isActive;
+    const targetScale = isOtherCardActive ? 0 : 1;
+    
+    if (isWrapAround && activeCard === null) {
+      // 스크롤 루프 발생 시 순간이동 처리 (날아가는 애니메이션 방지)
+      groupRef.current.position.set(targetX, targetY, targetZ);
+      groupRef.current.rotation.y = targetRotY;
+      groupRef.current.scale.setScalar(targetScale);
+    } else {
+      // 부드러운 위치/회전/스케일 보간 (Damping)
+      groupRef.current.position.x = THREE.MathUtils.damp(groupRef.current.position.x, targetX, 5, delta);
+      groupRef.current.position.y = THREE.MathUtils.damp(groupRef.current.position.y, targetY, 5, delta);
+      groupRef.current.position.z = THREE.MathUtils.damp(groupRef.current.position.z, targetZ, 5, delta);
+      groupRef.current.rotation.y = THREE.MathUtils.damp(groupRef.current.rotation.y, targetRotY, 5, delta);
+      
+      const newScale = THREE.MathUtils.damp(groupRef.current.scale.x, targetScale, 5, delta);
+      groupRef.current.scale.setScalar(newScale);
+    }
   });
 
   return (
-    <group ref={groupRef}>
+    <group 
+      ref={groupRef}
+      onClick={(e) => {
+        e.stopPropagation();
+        setActiveCard(isActive ? null : index);
+      }}
+      onPointerOver={(e) => { e.stopPropagation(); document.body.style.cursor = 'pointer'; }}
+      onPointerOut={() => { document.body.style.cursor = 'default'; }}
+    >
       {/* 화이트 패널 (사진 두께/테두리 효과) */}
       <mesh position={[0, 0, -0.05]}>
         <planeGeometry args={[CARD_WIDTH + 0.1, CARD_HEIGHT + 0.1]} />
@@ -64,18 +98,23 @@ const MemoryCard = ({ url, index, totalCards }: any) => {
 const Scene = () => {
   // 카드 간격을 25% 더 넓히기 위해 24장(3세트)으로 조절
   const cardsData = useMemo(() => Array(3).fill(baseCardsData).flat(), []);
+  const [activeCard, setActiveCard] = useState<number | null>(null);
 
   return (
-    <ScrollControls pages={5} infinite damping={0.1} distance={1}>
-      {cardsData.map((data, i) => (
-        <MemoryCard 
-          key={i} 
-          {...data} 
-          index={i} 
-          totalCards={cardsData.length}
-        />
-      ))}
-    </ScrollControls>
+    <group onPointerMissed={() => setActiveCard(null)}>
+      <ScrollControls pages={5} infinite damping={0.1} distance={1}>
+        {cardsData.map((data, i) => (
+          <MemoryCard 
+            key={i} 
+            {...data} 
+            index={i} 
+            totalCards={cardsData.length}
+            activeCard={activeCard}
+            setActiveCard={setActiveCard}
+          />
+        ))}
+      </ScrollControls>
+    </group>
   );
 };
 
