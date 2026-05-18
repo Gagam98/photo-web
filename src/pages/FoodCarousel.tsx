@@ -292,23 +292,23 @@ export default function FoodCarousel() {
 
       {/* Spoon Pictogram (Left Center Background) */}
       <div className="absolute left-10 top-1/2 -translate-y-1/2 pointer-events-none z-0 opacity-65 select-none">
-        <svg viewBox="0 0 100 200" className="w-12 h-24 stroke-neutral-700 fill-none stroke-[2]" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M50 30 C35 30, 35 70, 50 85 C65 70, 65 30, 50 30 Z" className="fill-neutral-300/35" />
-          <path d="M50 85 L50 170" />
+        <svg viewBox="0 0 100 200" className="w-12 h-24 stroke-neutral-700 fill-none stroke-[5]" strokeLinecap="round" strokeLinejoin="round">
+          <ellipse cx="50" cy="55" rx="25" ry="30" className="fill-neutral-300/35" />
+          <path d="M50 85 L50 175" />
         </svg>
       </div>
 
       {/* Chopsticks Pictogram (Right Center Background) */}
       <div className="absolute right-10 top-1/2 -translate-y-1/2 pointer-events-none z-0 opacity-65 select-none">
-        <svg viewBox="0 0 100 200" className="w-12 h-24 stroke-neutral-700 fill-none stroke-[2]" strokeLinecap="round" strokeLinejoin="round">
-          <line x1="42" y1="25" x2="42" y2="175" strokeWidth="2.5" />
-          <line x1="58" y1="25" x2="58" y2="175" strokeWidth="2.5" />
+        <svg viewBox="0 0 100 200" className="w-12 h-24 stroke-neutral-700 fill-none stroke-[5]" strokeLinecap="round" strokeLinejoin="round">
+          <line x1="40" y1="25" x2="40" y2="175" />
+          <line x1="60" y1="25" x2="60" y2="175" />
         </svg>
       </div>
 
       {/* Concentric Plate Pictogram (Centered, directly behind the photo stack) */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 opacity-45 select-none">
-        <svg viewBox="0 0 200 200" className="w-64 h-64 stroke-neutral-500 fill-none stroke-[1.5]">
+        <svg viewBox="0 0 200 200" className="w-64 h-64 stroke-neutral-700 fill-none stroke-[3]">
           <circle cx="100" cy="100" r="90" />
           <circle cx="100" cy="100" r="55" />
         </svg>

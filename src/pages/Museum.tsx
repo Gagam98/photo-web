@@ -94,6 +94,8 @@ export default function Museum() {
   const [photos, setPhotos] = useState<any[]>([]);
   const [isLoading, setIsLoading] = useState(true);
 
+  const safeMod = (val: number, n: number) => ((val % n) + n) % n;
+
   // Fetch photos from manifest
   useEffect(() => {
     fetch('/manifests/Museum.json')
@@ -115,6 +117,31 @@ export default function Museum() {
 
   const total = photos.length || 500;
 
+  // Prefetch adjacent photos during idle periods to achieve buttery smooth scrolls
+  useEffect(() => {
+    if (photos.length === 0) return;
+
+    const timer = setTimeout(() => {
+      // Prefetch 3 slides ahead and 3 slides behind
+      const targets = [
+        safeMod(activeIndex + 2, total),
+        safeMod(activeIndex + 3, total),
+        safeMod(activeIndex - 2, total),
+        safeMod(activeIndex - 3, total)
+      ];
+
+      targets.forEach(idx => {
+        const item = photos[idx];
+        if (item && item.url) {
+          const img = new Image();
+          img.src = item.url;
+        }
+      });
+    }, 250); // Debounce delay of 250ms
+
+    return () => clearTimeout(timer);
+  }, [activeIndex, photos, total]);
+
   const nextSlide = () => {
     setActiveIndex((prev) => prev + 1);
   };
@@ -122,8 +149,6 @@ export default function Museum() {
   const prevSlide = () => {
     setActiveIndex((prev) => prev - 1);
   };
-
-  const safeMod = (val: number, n: number) => ((val % n) + n) % n;
 
   const handleCardClick = (clickedVirtualIndex: number) => {
     const currentMod = safeMod(activeIndex, total);

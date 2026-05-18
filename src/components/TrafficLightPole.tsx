@@ -48,7 +48,7 @@ const createRoundedShape = (shapeType: string) => {
   return shape;
 };
 
-const HudTooltip = ({ hovered, title, subtitle, actionText, position = [0, 0, 0], direction = 'right' }: any) => {
+const HudTooltip = ({ hovered, title, subtitle, actionText, stats, position = [0, 0, 0], direction = 'right' }: any) => {
   return (
     <Html position={position} center zIndexRange={[100, 0]}>
       <div 
@@ -65,7 +65,7 @@ const HudTooltip = ({ hovered, title, subtitle, actionText, position = [0, 0, 0]
         }`} />
         
         {/* Main HUD Box */}
-        <div className="relative border border-white/40 p-4 bg-black/10 backdrop-blur-sm text-white font-mono text-[11px] tracking-widest uppercase shadow-[0_0_30px_rgba(255,255,255,0.03)]">
+        <div className="relative border border-white/40 p-4 bg-black/40 backdrop-blur-md text-white font-mono text-[11px] tracking-widest uppercase shadow-[0_0_35px_rgba(255,255,255,0.06)] rounded-sm">
           {/* Corner Markers (Crosshairs) */}
           <div className="absolute -top-[3px] -left-[3px] w-2 h-2 border-t-2 border-l-2 border-white" />
           <div className="absolute -top-[3px] -right-[3px] w-2 h-2 border-t-2 border-r-2 border-white" />
@@ -73,14 +73,26 @@ const HudTooltip = ({ hovered, title, subtitle, actionText, position = [0, 0, 0]
           <div className="absolute -bottom-[3px] -right-[3px] w-2 h-2 border-b-2 border-r-2 border-white" />
           
           {/* Top Header Row */}
-          <div className="flex justify-between items-center mb-6 border-b border-white/20 pb-2">
+          <div className="flex justify-between items-center mb-5 border-b border-white/20 pb-2">
             <span className="opacity-60 text-[9px]">{title}</span>
             <span className="text-white font-bold">{subtitle}</span>
           </div>
+
+          {/* Large Minimalist Count Section */}
+          {stats && stats.length > 0 && (
+            <div className="flex gap-6 mb-5 items-baseline justify-end">
+              {stats.map((stat: any, idx: number) => (
+                <div key={idx} className="flex flex-col items-end">
+                  <span className="text-4xl font-extralight tracking-tight text-white/95 leading-none">{stat.number}</span>
+                  <span className="text-[8px] opacity-40 tracking-widest mt-1.5 uppercase">{stat.label}</span>
+                </div>
+              ))}
+            </div>
+          )}
           
           {/* Content Body */}
           <div className="flex flex-col gap-1.5 text-right">
-            <span className="opacity-50 text-[9px] font-bold">ACTION REQUIRED</span>
+            <span className="opacity-50 text-[9px] font-bold">CURATION THEME</span>
             <span className="font-medium text-sm tracking-widest text-white">{actionText}</span>
           </div>
           
@@ -93,7 +105,7 @@ const HudTooltip = ({ hovered, title, subtitle, actionText, position = [0, 0, 0]
 };
 
 // Component for individual signs with physical backboards, inner borders, and solid-color silhouettes
-const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor, iconColor, iconScaleMultiplier = 1, title, subtitle, actionText, onClick, direction = 'right' }: any) => {
+const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor, iconColor, iconScaleMultiplier = 1, title, subtitle, actionText, stats, onClick, direction = 'right' }: any) => {
   const [hovered, setHovered] = useState(false);
   const texture = useTexture(textureUrl) as THREE.Texture;
   
@@ -149,6 +161,7 @@ const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor,
         title={title} 
         subtitle={subtitle} 
         actionText={actionText}
+        stats={stats}
         position={[0, 0, 0]} // Positioned exactly at the sign center
         direction={direction}
       />
@@ -158,7 +171,7 @@ const SolidSign = ({ textureUrl, position, boardRotation, scale, shape, bgColor,
 };
 
 // Component for the Food Traffic Light
-const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, direction = 'right' }: any) => {
+const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], actionText = "SAVORY • DAILY TASTE • MEMORIES", stats, onClick, direction = 'right' }: any) => {
   const [hovered, setHovered] = useState(false);
   const tomatoTex = useTexture('/tomato_slice.png');
   const lemonTex = useTexture('/lemon_slice.png');
@@ -236,7 +249,8 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, dire
         hovered={hovered}
         title="MODULE 01"
         subtitle="FOOD CAROUSEL"
-        actionText="CLICK TO VIEW GALLERY"
+        actionText={actionText}
+        stats={stats}
         position={[0, 0, 0]} // Positioned exactly at the center of the traffic light
         direction={direction}
       />
@@ -253,7 +267,7 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick, onMuseum
     if (poleRef.current) {
       poleRef.current.position.y = Math.sin(t * 0.8) * 0.1 - 1;
       // Rotate the pole base slightly so the 45-degree gathered signs are perfectly centered in the camera
-      poleRef.current.rotation.y = Math.sin(t * 0.3) * 0.2 - Math.PI / 8;
+      poleRef.current.rotation.y = -Math.sin(t * 0.3) * 0.2 - Math.PI / 8;
     }
   });
 
@@ -271,6 +285,8 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick, onMuseum
         position={[0.33, 1.7, -0.7]} 
         rotation={[0, Math.PI / 2, 0]} 
         scale={[1.2, 1.2, 1.2]} 
+        actionText="SAVORY • DAILY TASTE • MEMORIES"
+        stats={[{ number: '247', label: 'PHOTOS' }]}
         onClick={(e: any) => {
           e.stopPropagation();
           onLightClick?.();
@@ -322,7 +338,8 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick, onMuseum
           iconScaleMultiplier={1.3}
           title="MODULE 02"
           subtitle="MUSEUM COLLECTION"
-          actionText="CLICK TO VIEW GALLERY"
+          actionText="HERITAGE • ARTIFACTS • SOLEMN"
+          stats={[{ number: '143', label: 'PHOTOS' }]}
           onClick={(e: any) => { e.stopPropagation(); onMuseumClick?.(); }}
           direction="left"
         />
@@ -338,7 +355,8 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick, onMuseum
           iconColor="#000000"
           title="MODULE 03"
           subtitle="MEMORY ARCHIVE"
-          actionText="CLICK TO VIEW GALLERY"
+          actionText="NOSTALGIA • LIFETIME • PERSISTENT"
+          stats={[{ number: '351', label: 'PHOTOS' }]}
           onClick={(e: any) => { e.stopPropagation(); onMemoryClick?.(); }}
           direction="left"
         />
@@ -355,7 +373,8 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick, onMuseum
         iconColor="#ffffff"
         title="MODULE 04"
         subtitle="GAMING HUD"
-        actionText="CLICK TO VIEW GALLERY"
+        actionText="NINTENDO • GAMEPLAY • MULTI-WINDOW"
+        stats={[{ number: '472', label: 'PHOTOS' }, { number: '42', label: 'VIDEOS' }]}
         onClick={(e: any) => { e.stopPropagation(); onGameClick?.(); }}
       />
 

@@ -296,7 +296,7 @@ export default function MemoryArchive() {
         const rawPhotos = (data.images && data.images.length > 0) ? data.images : baseCardsData;
         setPhotos(rawPhotos);
         
-        const urlsToPreload = rawPhotos.slice(0, 200).map((p: any) => p.url);
+        const urlsToPreload = rawPhotos.map((p: any) => p.url);
         if (urlsToPreload.length === 0) {
           if (progressBarRef.current) progressBarRef.current.style.width = '100%';
           if (progressTextRef.current) progressTextRef.current.innerText = 'LOADING 100%';
