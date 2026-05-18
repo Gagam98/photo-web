@@ -1,0 +1,3166 @@
+{
+  "theme": "Memory",
+  "total": 351,
+  "updatedAt": "2026-05-18T00:45:25.859Z",
+  "images": [
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2366%202.webp",
+      "key": "Memory/memory/IMG_2366 2.webp",
+      "title": "IMG 2366 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2366.webp",
+      "key": "Memory/memory/IMG_2366.webp",
+      "title": "IMG 2366",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2370%202.webp",
+      "key": "Memory/memory/IMG_2370 2.webp",
+      "title": "IMG 2370 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2370.webp",
+      "key": "Memory/memory/IMG_2370.webp",
+      "title": "IMG 2370",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2371%202.webp",
+      "key": "Memory/memory/IMG_2371 2.webp",
+      "title": "IMG 2371 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2371.webp",
+      "key": "Memory/memory/IMG_2371.webp",
+      "title": "IMG 2371",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2372%202.webp",
+      "key": "Memory/memory/IMG_2372 2.webp",
+      "title": "IMG 2372 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2372%203.webp",
+      "key": "Memory/memory/IMG_2372 3.webp",
+      "title": "IMG 2372 3",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2373%202.webp",
+      "key": "Memory/memory/IMG_2373 2.webp",
+      "title": "IMG 2373 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2373.webp",
+      "key": "Memory/memory/IMG_2373.webp",
+      "title": "IMG 2373",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2374%202.webp",
+      "key": "Memory/memory/IMG_2374 2.webp",
+      "title": "IMG 2374 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2374.webp",
+      "key": "Memory/memory/IMG_2374.webp",
+      "title": "IMG 2374",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2375%202.webp",
+      "key": "Memory/memory/IMG_2375 2.webp",
+      "title": "IMG 2375 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2375.webp",
+      "key": "Memory/memory/IMG_2375.webp",
+      "title": "IMG 2375",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2376%202.webp",
+      "key": "Memory/memory/IMG_2376 2.webp",
+      "title": "IMG 2376 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2376.webp",
+      "key": "Memory/memory/IMG_2376.webp",
+      "title": "IMG 2376",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2377%202.webp",
+      "key": "Memory/memory/IMG_2377 2.webp",
+      "title": "IMG 2377 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2377.webp",
+      "key": "Memory/memory/IMG_2377.webp",
+      "title": "IMG 2377",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2378%202.webp",
+      "key": "Memory/memory/IMG_2378 2.webp",
+      "title": "IMG 2378 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2378.webp",
+      "key": "Memory/memory/IMG_2378.webp",
+      "title": "IMG 2378",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2379%202.webp",
+      "key": "Memory/memory/IMG_2379 2.webp",
+      "title": "IMG 2379 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2379.webp",
+      "key": "Memory/memory/IMG_2379.webp",
+      "title": "IMG 2379",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2388%202.webp",
+      "key": "Memory/memory/IMG_2388 2.webp",
+      "title": "IMG 2388 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2388.webp",
+      "key": "Memory/memory/IMG_2388.webp",
+      "title": "IMG 2388",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2389%202.webp",
+      "key": "Memory/memory/IMG_2389 2.webp",
+      "title": "IMG 2389 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2389.webp",
+      "key": "Memory/memory/IMG_2389.webp",
+      "title": "IMG 2389",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2428%202.webp",
+      "key": "Memory/memory/IMG_2428 2.webp",
+      "title": "IMG 2428 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2428.webp",
+      "key": "Memory/memory/IMG_2428.webp",
+      "title": "IMG 2428",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2429%202.webp",
+      "key": "Memory/memory/IMG_2429 2.webp",
+      "title": "IMG 2429 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2429.webp",
+      "key": "Memory/memory/IMG_2429.webp",
+      "title": "IMG 2429",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2458.webp",
+      "key": "Memory/memory/IMG_2458.webp",
+      "title": "IMG 2458",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2512.webp",
+      "key": "Memory/memory/IMG_2512.webp",
+      "title": "IMG 2512",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2513.webp",
+      "key": "Memory/memory/IMG_2513.webp",
+      "title": "IMG 2513",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_2594.webp",
+      "key": "Memory/memory/IMG_2594.webp",
+      "title": "IMG 2594",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3902%202.webp",
+      "key": "Memory/memory/IMG_3902 2.webp",
+      "title": "IMG 3902 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3902.webp",
+      "key": "Memory/memory/IMG_3902.webp",
+      "title": "IMG 3902",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3903%202.webp",
+      "key": "Memory/memory/IMG_3903 2.webp",
+      "title": "IMG 3903 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3903.webp",
+      "key": "Memory/memory/IMG_3903.webp",
+      "title": "IMG 3903",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3904%202.webp",
+      "key": "Memory/memory/IMG_3904 2.webp",
+      "title": "IMG 3904 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3904.webp",
+      "key": "Memory/memory/IMG_3904.webp",
+      "title": "IMG 3904",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3909%202.webp",
+      "key": "Memory/memory/IMG_3909 2.webp",
+      "title": "IMG 3909 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3917.webp",
+      "key": "Memory/memory/IMG_3917.webp",
+      "title": "IMG 3917",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3994.webp",
+      "key": "Memory/memory/IMG_3994.webp",
+      "title": "IMG 3994",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3995.webp",
+      "key": "Memory/memory/IMG_3995.webp",
+      "title": "IMG 3995",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_3996.webp",
+      "key": "Memory/memory/IMG_3996.webp",
+      "title": "IMG 3996",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_4127.webp",
+      "key": "Memory/memory/IMG_4127.webp",
+      "title": "IMG 4127",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_4128.webp",
+      "key": "Memory/memory/IMG_4128.webp",
+      "title": "IMG 4128",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_4129.webp",
+      "key": "Memory/memory/IMG_4129.webp",
+      "title": "IMG 4129",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_4130.webp",
+      "key": "Memory/memory/IMG_4130.webp",
+      "title": "IMG 4130",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_4159%202.webp",
+      "key": "Memory/memory/IMG_4159 2.webp",
+      "title": "IMG 4159 2",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_4159.webp",
+      "key": "Memory/memory/IMG_4159.webp",
+      "title": "IMG 4159",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5581.webp",
+      "key": "Memory/memory/IMG_5581.webp",
+      "title": "IMG 5581",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5583.webp",
+      "key": "Memory/memory/IMG_5583.webp",
+      "title": "IMG 5583",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5625.webp",
+      "key": "Memory/memory/IMG_5625.webp",
+      "title": "IMG 5625",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5626.webp",
+      "key": "Memory/memory/IMG_5626.webp",
+      "title": "IMG 5626",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5627.webp",
+      "key": "Memory/memory/IMG_5627.webp",
+      "title": "IMG 5627",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5628.webp",
+      "key": "Memory/memory/IMG_5628.webp",
+      "title": "IMG 5628",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5630.webp",
+      "key": "Memory/memory/IMG_5630.webp",
+      "title": "IMG 5630",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5671.webp",
+      "key": "Memory/memory/IMG_5671.webp",
+      "title": "IMG 5671",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5678.webp",
+      "key": "Memory/memory/IMG_5678.webp",
+      "title": "IMG 5678",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5679.webp",
+      "key": "Memory/memory/IMG_5679.webp",
+      "title": "IMG 5679",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5684.webp",
+      "key": "Memory/memory/IMG_5684.webp",
+      "title": "IMG 5684",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5685.webp",
+      "key": "Memory/memory/IMG_5685.webp",
+      "title": "IMG 5685",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5701.webp",
+      "key": "Memory/memory/IMG_5701.webp",
+      "title": "IMG 5701",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5705.webp",
+      "key": "Memory/memory/IMG_5705.webp",
+      "title": "IMG 5705",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5706.webp",
+      "key": "Memory/memory/IMG_5706.webp",
+      "title": "IMG 5706",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5737.webp",
+      "key": "Memory/memory/IMG_5737.webp",
+      "title": "IMG 5737",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5741.webp",
+      "key": "Memory/memory/IMG_5741.webp",
+      "title": "IMG 5741",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5746.webp",
+      "key": "Memory/memory/IMG_5746.webp",
+      "title": "IMG 5746",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5777.webp",
+      "key": "Memory/memory/IMG_5777.webp",
+      "title": "IMG 5777",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5779.webp",
+      "key": "Memory/memory/IMG_5779.webp",
+      "title": "IMG 5779",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5793.webp",
+      "key": "Memory/memory/IMG_5793.webp",
+      "title": "IMG 5793",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5794.webp",
+      "key": "Memory/memory/IMG_5794.webp",
+      "title": "IMG 5794",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5796.webp",
+      "key": "Memory/memory/IMG_5796.webp",
+      "title": "IMG 5796",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5797.webp",
+      "key": "Memory/memory/IMG_5797.webp",
+      "title": "IMG 5797",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5798.webp",
+      "key": "Memory/memory/IMG_5798.webp",
+      "title": "IMG 5798",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5799.webp",
+      "key": "Memory/memory/IMG_5799.webp",
+      "title": "IMG 5799",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5800.webp",
+      "key": "Memory/memory/IMG_5800.webp",
+      "title": "IMG 5800",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5801.webp",
+      "key": "Memory/memory/IMG_5801.webp",
+      "title": "IMG 5801",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5804.webp",
+      "key": "Memory/memory/IMG_5804.webp",
+      "title": "IMG 5804",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5805.webp",
+      "key": "Memory/memory/IMG_5805.webp",
+      "title": "IMG 5805",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5806.webp",
+      "key": "Memory/memory/IMG_5806.webp",
+      "title": "IMG 5806",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5807.webp",
+      "key": "Memory/memory/IMG_5807.webp",
+      "title": "IMG 5807",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5809.webp",
+      "key": "Memory/memory/IMG_5809.webp",
+      "title": "IMG 5809",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5810.webp",
+      "key": "Memory/memory/IMG_5810.webp",
+      "title": "IMG 5810",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5811.webp",
+      "key": "Memory/memory/IMG_5811.webp",
+      "title": "IMG 5811",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5812.webp",
+      "key": "Memory/memory/IMG_5812.webp",
+      "title": "IMG 5812",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5813.webp",
+      "key": "Memory/memory/IMG_5813.webp",
+      "title": "IMG 5813",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5814.webp",
+      "key": "Memory/memory/IMG_5814.webp",
+      "title": "IMG 5814",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5815.webp",
+      "key": "Memory/memory/IMG_5815.webp",
+      "title": "IMG 5815",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5816.webp",
+      "key": "Memory/memory/IMG_5816.webp",
+      "title": "IMG 5816",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5817.webp",
+      "key": "Memory/memory/IMG_5817.webp",
+      "title": "IMG 5817",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5818.webp",
+      "key": "Memory/memory/IMG_5818.webp",
+      "title": "IMG 5818",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5819.webp",
+      "key": "Memory/memory/IMG_5819.webp",
+      "title": "IMG 5819",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5820.webp",
+      "key": "Memory/memory/IMG_5820.webp",
+      "title": "IMG 5820",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5821.webp",
+      "key": "Memory/memory/IMG_5821.webp",
+      "title": "IMG 5821",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5822.webp",
+      "key": "Memory/memory/IMG_5822.webp",
+      "title": "IMG 5822",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5823.webp",
+      "key": "Memory/memory/IMG_5823.webp",
+      "title": "IMG 5823",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5824.webp",
+      "key": "Memory/memory/IMG_5824.webp",
+      "title": "IMG 5824",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5825.webp",
+      "key": "Memory/memory/IMG_5825.webp",
+      "title": "IMG 5825",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5826.webp",
+      "key": "Memory/memory/IMG_5826.webp",
+      "title": "IMG 5826",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5827.webp",
+      "key": "Memory/memory/IMG_5827.webp",
+      "title": "IMG 5827",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5828.webp",
+      "key": "Memory/memory/IMG_5828.webp",
+      "title": "IMG 5828",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5829.webp",
+      "key": "Memory/memory/IMG_5829.webp",
+      "title": "IMG 5829",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5830.webp",
+      "key": "Memory/memory/IMG_5830.webp",
+      "title": "IMG 5830",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5831.webp",
+      "key": "Memory/memory/IMG_5831.webp",
+      "title": "IMG 5831",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5869.webp",
+      "key": "Memory/memory/IMG_5869.webp",
+      "title": "IMG 5869",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5871.webp",
+      "key": "Memory/memory/IMG_5871.webp",
+      "title": "IMG 5871",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5872.webp",
+      "key": "Memory/memory/IMG_5872.webp",
+      "title": "IMG 5872",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5889.webp",
+      "key": "Memory/memory/IMG_5889.webp",
+      "title": "IMG 5889",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5890.webp",
+      "key": "Memory/memory/IMG_5890.webp",
+      "title": "IMG 5890",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5904.webp",
+      "key": "Memory/memory/IMG_5904.webp",
+      "title": "IMG 5904",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5912.webp",
+      "key": "Memory/memory/IMG_5912.webp",
+      "title": "IMG 5912",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5923.webp",
+      "key": "Memory/memory/IMG_5923.webp",
+      "title": "IMG 5923",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5925.webp",
+      "key": "Memory/memory/IMG_5925.webp",
+      "title": "IMG 5925",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5926.webp",
+      "key": "Memory/memory/IMG_5926.webp",
+      "title": "IMG 5926",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5943.webp",
+      "key": "Memory/memory/IMG_5943.webp",
+      "title": "IMG 5943",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5961.webp",
+      "key": "Memory/memory/IMG_5961.webp",
+      "title": "IMG 5961",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5981.webp",
+      "key": "Memory/memory/IMG_5981.webp",
+      "title": "IMG 5981",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_5982.webp",
+      "key": "Memory/memory/IMG_5982.webp",
+      "title": "IMG 5982",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6076.webp",
+      "key": "Memory/memory/IMG_6076.webp",
+      "title": "IMG 6076",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6077.webp",
+      "key": "Memory/memory/IMG_6077.webp",
+      "title": "IMG 6077",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6101.webp",
+      "key": "Memory/memory/IMG_6101.webp",
+      "title": "IMG 6101",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6102.webp",
+      "key": "Memory/memory/IMG_6102.webp",
+      "title": "IMG 6102",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6103.webp",
+      "key": "Memory/memory/IMG_6103.webp",
+      "title": "IMG 6103",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6104.webp",
+      "key": "Memory/memory/IMG_6104.webp",
+      "title": "IMG 6104",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6105.webp",
+      "key": "Memory/memory/IMG_6105.webp",
+      "title": "IMG 6105",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6106.webp",
+      "key": "Memory/memory/IMG_6106.webp",
+      "title": "IMG 6106",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6107.webp",
+      "key": "Memory/memory/IMG_6107.webp",
+      "title": "IMG 6107",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6108.webp",
+      "key": "Memory/memory/IMG_6108.webp",
+      "title": "IMG 6108",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6109.webp",
+      "key": "Memory/memory/IMG_6109.webp",
+      "title": "IMG 6109",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6110.webp",
+      "key": "Memory/memory/IMG_6110.webp",
+      "title": "IMG 6110",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6111.webp",
+      "key": "Memory/memory/IMG_6111.webp",
+      "title": "IMG 6111",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6112.webp",
+      "key": "Memory/memory/IMG_6112.webp",
+      "title": "IMG 6112",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6113.webp",
+      "key": "Memory/memory/IMG_6113.webp",
+      "title": "IMG 6113",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6114.webp",
+      "key": "Memory/memory/IMG_6114.webp",
+      "title": "IMG 6114",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6119.webp",
+      "key": "Memory/memory/IMG_6119.webp",
+      "title": "IMG 6119",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6120.webp",
+      "key": "Memory/memory/IMG_6120.webp",
+      "title": "IMG 6120",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6121.webp",
+      "key": "Memory/memory/IMG_6121.webp",
+      "title": "IMG 6121",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6122.webp",
+      "key": "Memory/memory/IMG_6122.webp",
+      "title": "IMG 6122",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6123.webp",
+      "key": "Memory/memory/IMG_6123.webp",
+      "title": "IMG 6123",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6124.webp",
+      "key": "Memory/memory/IMG_6124.webp",
+      "title": "IMG 6124",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6125.webp",
+      "key": "Memory/memory/IMG_6125.webp",
+      "title": "IMG 6125",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6127.webp",
+      "key": "Memory/memory/IMG_6127.webp",
+      "title": "IMG 6127",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6128.webp",
+      "key": "Memory/memory/IMG_6128.webp",
+      "title": "IMG 6128",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6129.webp",
+      "key": "Memory/memory/IMG_6129.webp",
+      "title": "IMG 6129",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6130.webp",
+      "key": "Memory/memory/IMG_6130.webp",
+      "title": "IMG 6130",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6131.webp",
+      "key": "Memory/memory/IMG_6131.webp",
+      "title": "IMG 6131",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6132.webp",
+      "key": "Memory/memory/IMG_6132.webp",
+      "title": "IMG 6132",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6136.webp",
+      "key": "Memory/memory/IMG_6136.webp",
+      "title": "IMG 6136",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6148.webp",
+      "key": "Memory/memory/IMG_6148.webp",
+      "title": "IMG 6148",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6152.webp",
+      "key": "Memory/memory/IMG_6152.webp",
+      "title": "IMG 6152",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6153.webp",
+      "key": "Memory/memory/IMG_6153.webp",
+      "title": "IMG 6153",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6154.webp",
+      "key": "Memory/memory/IMG_6154.webp",
+      "title": "IMG 6154",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6156.webp",
+      "key": "Memory/memory/IMG_6156.webp",
+      "title": "IMG 6156",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6157.webp",
+      "key": "Memory/memory/IMG_6157.webp",
+      "title": "IMG 6157",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6158.webp",
+      "key": "Memory/memory/IMG_6158.webp",
+      "title": "IMG 6158",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6163.webp",
+      "key": "Memory/memory/IMG_6163.webp",
+      "title": "IMG 6163",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6181.webp",
+      "key": "Memory/memory/IMG_6181.webp",
+      "title": "IMG 6181",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6183.webp",
+      "key": "Memory/memory/IMG_6183.webp",
+      "title": "IMG 6183",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6200.webp",
+      "key": "Memory/memory/IMG_6200.webp",
+      "title": "IMG 6200",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6201.webp",
+      "key": "Memory/memory/IMG_6201.webp",
+      "title": "IMG 6201",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6202.webp",
+      "key": "Memory/memory/IMG_6202.webp",
+      "title": "IMG 6202",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6203.webp",
+      "key": "Memory/memory/IMG_6203.webp",
+      "title": "IMG 6203",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6223.webp",
+      "key": "Memory/memory/IMG_6223.webp",
+      "title": "IMG 6223",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6228.webp",
+      "key": "Memory/memory/IMG_6228.webp",
+      "title": "IMG 6228",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6229.webp",
+      "key": "Memory/memory/IMG_6229.webp",
+      "title": "IMG 6229",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6234.webp",
+      "key": "Memory/memory/IMG_6234.webp",
+      "title": "IMG 6234",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6236.webp",
+      "key": "Memory/memory/IMG_6236.webp",
+      "title": "IMG 6236",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6251.webp",
+      "key": "Memory/memory/IMG_6251.webp",
+      "title": "IMG 6251",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6281.webp",
+      "key": "Memory/memory/IMG_6281.webp",
+      "title": "IMG 6281",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6291.webp",
+      "key": "Memory/memory/IMG_6291.webp",
+      "title": "IMG 6291",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6311.webp",
+      "key": "Memory/memory/IMG_6311.webp",
+      "title": "IMG 6311",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6321.webp",
+      "key": "Memory/memory/IMG_6321.webp",
+      "title": "IMG 6321",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6332.webp",
+      "key": "Memory/memory/IMG_6332.webp",
+      "title": "IMG 6332",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6337.webp",
+      "key": "Memory/memory/IMG_6337.webp",
+      "title": "IMG 6337",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6346.webp",
+      "key": "Memory/memory/IMG_6346.webp",
+      "title": "IMG 6346",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6358.webp",
+      "key": "Memory/memory/IMG_6358.webp",
+      "title": "IMG 6358",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6370.webp",
+      "key": "Memory/memory/IMG_6370.webp",
+      "title": "IMG 6370",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6372.webp",
+      "key": "Memory/memory/IMG_6372.webp",
+      "title": "IMG 6372",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6373.webp",
+      "key": "Memory/memory/IMG_6373.webp",
+      "title": "IMG 6373",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6374.webp",
+      "key": "Memory/memory/IMG_6374.webp",
+      "title": "IMG 6374",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6375.webp",
+      "key": "Memory/memory/IMG_6375.webp",
+      "title": "IMG 6375",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6376.webp",
+      "key": "Memory/memory/IMG_6376.webp",
+      "title": "IMG 6376",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6378.webp",
+      "key": "Memory/memory/IMG_6378.webp",
+      "title": "IMG 6378",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6379.webp",
+      "key": "Memory/memory/IMG_6379.webp",
+      "title": "IMG 6379",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6396.webp",
+      "key": "Memory/memory/IMG_6396.webp",
+      "title": "IMG 6396",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6408.webp",
+      "key": "Memory/memory/IMG_6408.webp",
+      "title": "IMG 6408",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6410.webp",
+      "key": "Memory/memory/IMG_6410.webp",
+      "title": "IMG 6410",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6418.webp",
+      "key": "Memory/memory/IMG_6418.webp",
+      "title": "IMG 6418",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6419.webp",
+      "key": "Memory/memory/IMG_6419.webp",
+      "title": "IMG 6419",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6420.webp",
+      "key": "Memory/memory/IMG_6420.webp",
+      "title": "IMG 6420",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6425.webp",
+      "key": "Memory/memory/IMG_6425.webp",
+      "title": "IMG 6425",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6426.webp",
+      "key": "Memory/memory/IMG_6426.webp",
+      "title": "IMG 6426",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6427.webp",
+      "key": "Memory/memory/IMG_6427.webp",
+      "title": "IMG 6427",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6429.webp",
+      "key": "Memory/memory/IMG_6429.webp",
+      "title": "IMG 6429",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6438.webp",
+      "key": "Memory/memory/IMG_6438.webp",
+      "title": "IMG 6438",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6451.webp",
+      "key": "Memory/memory/IMG_6451.webp",
+      "title": "IMG 6451",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6469.webp",
+      "key": "Memory/memory/IMG_6469.webp",
+      "title": "IMG 6469",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6485.webp",
+      "key": "Memory/memory/IMG_6485.webp",
+      "title": "IMG 6485",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6486.webp",
+      "key": "Memory/memory/IMG_6486.webp",
+      "title": "IMG 6486",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6500.webp",
+      "key": "Memory/memory/IMG_6500.webp",
+      "title": "IMG 6500",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6507.webp",
+      "key": "Memory/memory/IMG_6507.webp",
+      "title": "IMG 6507",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6516.webp",
+      "key": "Memory/memory/IMG_6516.webp",
+      "title": "IMG 6516",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6519.webp",
+      "key": "Memory/memory/IMG_6519.webp",
+      "title": "IMG 6519",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6520.webp",
+      "key": "Memory/memory/IMG_6520.webp",
+      "title": "IMG 6520",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6527.webp",
+      "key": "Memory/memory/IMG_6527.webp",
+      "title": "IMG 6527",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6540.webp",
+      "key": "Memory/memory/IMG_6540.webp",
+      "title": "IMG 6540",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6542.webp",
+      "key": "Memory/memory/IMG_6542.webp",
+      "title": "IMG 6542",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6551.webp",
+      "key": "Memory/memory/IMG_6551.webp",
+      "title": "IMG 6551",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6552.webp",
+      "key": "Memory/memory/IMG_6552.webp",
+      "title": "IMG 6552",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6557.webp",
+      "key": "Memory/memory/IMG_6557.webp",
+      "title": "IMG 6557",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6566.webp",
+      "key": "Memory/memory/IMG_6566.webp",
+      "title": "IMG 6566",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6576.webp",
+      "key": "Memory/memory/IMG_6576.webp",
+      "title": "IMG 6576",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6578.webp",
+      "key": "Memory/memory/IMG_6578.webp",
+      "title": "IMG 6578",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6588.webp",
+      "key": "Memory/memory/IMG_6588.webp",
+      "title": "IMG 6588",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6589.webp",
+      "key": "Memory/memory/IMG_6589.webp",
+      "title": "IMG 6589",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6786.webp",
+      "key": "Memory/memory/IMG_6786.webp",
+      "title": "IMG 6786",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6795.webp",
+      "key": "Memory/memory/IMG_6795.webp",
+      "title": "IMG 6795",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6800.webp",
+      "key": "Memory/memory/IMG_6800.webp",
+      "title": "IMG 6800",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6801.webp",
+      "key": "Memory/memory/IMG_6801.webp",
+      "title": "IMG 6801",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6807.webp",
+      "key": "Memory/memory/IMG_6807.webp",
+      "title": "IMG 6807",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6808.webp",
+      "key": "Memory/memory/IMG_6808.webp",
+      "title": "IMG 6808",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6810.webp",
+      "key": "Memory/memory/IMG_6810.webp",
+      "title": "IMG 6810",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6811.webp",
+      "key": "Memory/memory/IMG_6811.webp",
+      "title": "IMG 6811",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6816.webp",
+      "key": "Memory/memory/IMG_6816.webp",
+      "title": "IMG 6816",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6817.webp",
+      "key": "Memory/memory/IMG_6817.webp",
+      "title": "IMG 6817",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6818.webp",
+      "key": "Memory/memory/IMG_6818.webp",
+      "title": "IMG 6818",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6819.webp",
+      "key": "Memory/memory/IMG_6819.webp",
+      "title": "IMG 6819",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6820.webp",
+      "key": "Memory/memory/IMG_6820.webp",
+      "title": "IMG 6820",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6821.webp",
+      "key": "Memory/memory/IMG_6821.webp",
+      "title": "IMG 6821",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6822.webp",
+      "key": "Memory/memory/IMG_6822.webp",
+      "title": "IMG 6822",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6828.webp",
+      "key": "Memory/memory/IMG_6828.webp",
+      "title": "IMG 6828",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6846.webp",
+      "key": "Memory/memory/IMG_6846.webp",
+      "title": "IMG 6846",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6848.webp",
+      "key": "Memory/memory/IMG_6848.webp",
+      "title": "IMG 6848",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6863.webp",
+      "key": "Memory/memory/IMG_6863.webp",
+      "title": "IMG 6863",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6873.webp",
+      "key": "Memory/memory/IMG_6873.webp",
+      "title": "IMG 6873",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6874.webp",
+      "key": "Memory/memory/IMG_6874.webp",
+      "title": "IMG 6874",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6880.webp",
+      "key": "Memory/memory/IMG_6880.webp",
+      "title": "IMG 6880",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6891.webp",
+      "key": "Memory/memory/IMG_6891.webp",
+      "title": "IMG 6891",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6901.webp",
+      "key": "Memory/memory/IMG_6901.webp",
+      "title": "IMG 6901",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6904.webp",
+      "key": "Memory/memory/IMG_6904.webp",
+      "title": "IMG 6904",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6905.webp",
+      "key": "Memory/memory/IMG_6905.webp",
+      "title": "IMG 6905",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6914.webp",
+      "key": "Memory/memory/IMG_6914.webp",
+      "title": "IMG 6914",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6921.webp",
+      "key": "Memory/memory/IMG_6921.webp",
+      "title": "IMG 6921",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6945.webp",
+      "key": "Memory/memory/IMG_6945.webp",
+      "title": "IMG 6945",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6975.webp",
+      "key": "Memory/memory/IMG_6975.webp",
+      "title": "IMG 6975",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_6987.webp",
+      "key": "Memory/memory/IMG_6987.webp",
+      "title": "IMG 6987",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7052.webp",
+      "key": "Memory/memory/IMG_7052.webp",
+      "title": "IMG 7052",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7085.webp",
+      "key": "Memory/memory/IMG_7085.webp",
+      "title": "IMG 7085",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7112.webp",
+      "key": "Memory/memory/IMG_7112.webp",
+      "title": "IMG 7112",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7115.webp",
+      "key": "Memory/memory/IMG_7115.webp",
+      "title": "IMG 7115",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7117.webp",
+      "key": "Memory/memory/IMG_7117.webp",
+      "title": "IMG 7117",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7118.webp",
+      "key": "Memory/memory/IMG_7118.webp",
+      "title": "IMG 7118",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7119.webp",
+      "key": "Memory/memory/IMG_7119.webp",
+      "title": "IMG 7119",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7123.webp",
+      "key": "Memory/memory/IMG_7123.webp",
+      "title": "IMG 7123",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7124.webp",
+      "key": "Memory/memory/IMG_7124.webp",
+      "title": "IMG 7124",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7125.webp",
+      "key": "Memory/memory/IMG_7125.webp",
+      "title": "IMG 7125",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7126.webp",
+      "key": "Memory/memory/IMG_7126.webp",
+      "title": "IMG 7126",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7128.webp",
+      "key": "Memory/memory/IMG_7128.webp",
+      "title": "IMG 7128",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7129.webp",
+      "key": "Memory/memory/IMG_7129.webp",
+      "title": "IMG 7129",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7130.webp",
+      "key": "Memory/memory/IMG_7130.webp",
+      "title": "IMG 7130",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7131.webp",
+      "key": "Memory/memory/IMG_7131.webp",
+      "title": "IMG 7131",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7132.webp",
+      "key": "Memory/memory/IMG_7132.webp",
+      "title": "IMG 7132",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7133.webp",
+      "key": "Memory/memory/IMG_7133.webp",
+      "title": "IMG 7133",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7134.webp",
+      "key": "Memory/memory/IMG_7134.webp",
+      "title": "IMG 7134",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7136.webp",
+      "key": "Memory/memory/IMG_7136.webp",
+      "title": "IMG 7136",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7150.webp",
+      "key": "Memory/memory/IMG_7150.webp",
+      "title": "IMG 7150",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7151.webp",
+      "key": "Memory/memory/IMG_7151.webp",
+      "title": "IMG 7151",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7175.webp",
+      "key": "Memory/memory/IMG_7175.webp",
+      "title": "IMG 7175",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7176.webp",
+      "key": "Memory/memory/IMG_7176.webp",
+      "title": "IMG 7176",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7191.webp",
+      "key": "Memory/memory/IMG_7191.webp",
+      "title": "IMG 7191",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7240.webp",
+      "key": "Memory/memory/IMG_7240.webp",
+      "title": "IMG 7240",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7248.webp",
+      "key": "Memory/memory/IMG_7248.webp",
+      "title": "IMG 7248",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7249.webp",
+      "key": "Memory/memory/IMG_7249.webp",
+      "title": "IMG 7249",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7258.webp",
+      "key": "Memory/memory/IMG_7258.webp",
+      "title": "IMG 7258",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7274.webp",
+      "key": "Memory/memory/IMG_7274.webp",
+      "title": "IMG 7274",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7282.webp",
+      "key": "Memory/memory/IMG_7282.webp",
+      "title": "IMG 7282",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7295.webp",
+      "key": "Memory/memory/IMG_7295.webp",
+      "title": "IMG 7295",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7303.webp",
+      "key": "Memory/memory/IMG_7303.webp",
+      "title": "IMG 7303",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7318.webp",
+      "key": "Memory/memory/IMG_7318.webp",
+      "title": "IMG 7318",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7319.webp",
+      "key": "Memory/memory/IMG_7319.webp",
+      "title": "IMG 7319",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7327.webp",
+      "key": "Memory/memory/IMG_7327.webp",
+      "title": "IMG 7327",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7338.webp",
+      "key": "Memory/memory/IMG_7338.webp",
+      "title": "IMG 7338",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7348.webp",
+      "key": "Memory/memory/IMG_7348.webp",
+      "title": "IMG 7348",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7397.webp",
+      "key": "Memory/memory/IMG_7397.webp",
+      "title": "IMG 7397",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7424.webp",
+      "key": "Memory/memory/IMG_7424.webp",
+      "title": "IMG 7424",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7425.webp",
+      "key": "Memory/memory/IMG_7425.webp",
+      "title": "IMG 7425",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7426.webp",
+      "key": "Memory/memory/IMG_7426.webp",
+      "title": "IMG 7426",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7427.webp",
+      "key": "Memory/memory/IMG_7427.webp",
+      "title": "IMG 7427",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7428.webp",
+      "key": "Memory/memory/IMG_7428.webp",
+      "title": "IMG 7428",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7429.webp",
+      "key": "Memory/memory/IMG_7429.webp",
+      "title": "IMG 7429",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7430.webp",
+      "key": "Memory/memory/IMG_7430.webp",
+      "title": "IMG 7430",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7431.webp",
+      "key": "Memory/memory/IMG_7431.webp",
+      "title": "IMG 7431",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7432.webp",
+      "key": "Memory/memory/IMG_7432.webp",
+      "title": "IMG 7432",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7433.webp",
+      "key": "Memory/memory/IMG_7433.webp",
+      "title": "IMG 7433",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7434.webp",
+      "key": "Memory/memory/IMG_7434.webp",
+      "title": "IMG 7434",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7435.webp",
+      "key": "Memory/memory/IMG_7435.webp",
+      "title": "IMG 7435",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7436.webp",
+      "key": "Memory/memory/IMG_7436.webp",
+      "title": "IMG 7436",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7437.webp",
+      "key": "Memory/memory/IMG_7437.webp",
+      "title": "IMG 7437",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7438.webp",
+      "key": "Memory/memory/IMG_7438.webp",
+      "title": "IMG 7438",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7439.webp",
+      "key": "Memory/memory/IMG_7439.webp",
+      "title": "IMG 7439",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7440.webp",
+      "key": "Memory/memory/IMG_7440.webp",
+      "title": "IMG 7440",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7441.webp",
+      "key": "Memory/memory/IMG_7441.webp",
+      "title": "IMG 7441",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7442.webp",
+      "key": "Memory/memory/IMG_7442.webp",
+      "title": "IMG 7442",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7444.webp",
+      "key": "Memory/memory/IMG_7444.webp",
+      "title": "IMG 7444",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7445.webp",
+      "key": "Memory/memory/IMG_7445.webp",
+      "title": "IMG 7445",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7446.webp",
+      "key": "Memory/memory/IMG_7446.webp",
+      "title": "IMG 7446",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7450.webp",
+      "key": "Memory/memory/IMG_7450.webp",
+      "title": "IMG 7450",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7454.webp",
+      "key": "Memory/memory/IMG_7454.webp",
+      "title": "IMG 7454",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7462.webp",
+      "key": "Memory/memory/IMG_7462.webp",
+      "title": "IMG 7462",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7467.webp",
+      "key": "Memory/memory/IMG_7467.webp",
+      "title": "IMG 7467",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7468.webp",
+      "key": "Memory/memory/IMG_7468.webp",
+      "title": "IMG 7468",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7477.webp",
+      "key": "Memory/memory/IMG_7477.webp",
+      "title": "IMG 7477",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7482.webp",
+      "key": "Memory/memory/IMG_7482.webp",
+      "title": "IMG 7482",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7483.webp",
+      "key": "Memory/memory/IMG_7483.webp",
+      "title": "IMG 7483",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7484.webp",
+      "key": "Memory/memory/IMG_7484.webp",
+      "title": "IMG 7484",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_7486.webp",
+      "key": "Memory/memory/IMG_7486.webp",
+      "title": "IMG 7486",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8309.webp",
+      "key": "Memory/memory/IMG_8309.webp",
+      "title": "IMG 8309",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8345.webp",
+      "key": "Memory/memory/IMG_8345.webp",
+      "title": "IMG 8345",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8349.webp",
+      "key": "Memory/memory/IMG_8349.webp",
+      "title": "IMG 8349",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8350.webp",
+      "key": "Memory/memory/IMG_8350.webp",
+      "title": "IMG 8350",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8351.webp",
+      "key": "Memory/memory/IMG_8351.webp",
+      "title": "IMG 8351",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8352.webp",
+      "key": "Memory/memory/IMG_8352.webp",
+      "title": "IMG 8352",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8353.webp",
+      "key": "Memory/memory/IMG_8353.webp",
+      "title": "IMG 8353",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8497.webp",
+      "key": "Memory/memory/IMG_8497.webp",
+      "title": "IMG 8497",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8498.webp",
+      "key": "Memory/memory/IMG_8498.webp",
+      "title": "IMG 8498",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8499.webp",
+      "key": "Memory/memory/IMG_8499.webp",
+      "title": "IMG 8499",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8500.webp",
+      "key": "Memory/memory/IMG_8500.webp",
+      "title": "IMG 8500",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8554.webp",
+      "key": "Memory/memory/IMG_8554.webp",
+      "title": "IMG 8554",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8555.webp",
+      "key": "Memory/memory/IMG_8555.webp",
+      "title": "IMG 8555",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8556.webp",
+      "key": "Memory/memory/IMG_8556.webp",
+      "title": "IMG 8556",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8557.webp",
+      "key": "Memory/memory/IMG_8557.webp",
+      "title": "IMG 8557",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8720.webp",
+      "key": "Memory/memory/IMG_8720.webp",
+      "title": "IMG 8720",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8721.webp",
+      "key": "Memory/memory/IMG_8721.webp",
+      "title": "IMG 8721",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8722.webp",
+      "key": "Memory/memory/IMG_8722.webp",
+      "title": "IMG 8722",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8724.webp",
+      "key": "Memory/memory/IMG_8724.webp",
+      "title": "IMG 8724",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8725.webp",
+      "key": "Memory/memory/IMG_8725.webp",
+      "title": "IMG 8725",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8726.webp",
+      "key": "Memory/memory/IMG_8726.webp",
+      "title": "IMG 8726",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8734.webp",
+      "key": "Memory/memory/IMG_8734.webp",
+      "title": "IMG 8734",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8735.webp",
+      "key": "Memory/memory/IMG_8735.webp",
+      "title": "IMG 8735",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8738.webp",
+      "key": "Memory/memory/IMG_8738.webp",
+      "title": "IMG 8738",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8739.webp",
+      "key": "Memory/memory/IMG_8739.webp",
+      "title": "IMG 8739",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8744.webp",
+      "key": "Memory/memory/IMG_8744.webp",
+      "title": "IMG 8744",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8745.webp",
+      "key": "Memory/memory/IMG_8745.webp",
+      "title": "IMG 8745",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8986.webp",
+      "key": "Memory/memory/IMG_8986.webp",
+      "title": "IMG 8986",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8987.webp",
+      "key": "Memory/memory/IMG_8987.webp",
+      "title": "IMG 8987",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8989.webp",
+      "key": "Memory/memory/IMG_8989.webp",
+      "title": "IMG 8989",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8990.webp",
+      "key": "Memory/memory/IMG_8990.webp",
+      "title": "IMG 8990",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_8991.webp",
+      "key": "Memory/memory/IMG_8991.webp",
+      "title": "IMG 8991",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    },
+    {
+      "url": "https://d2mggckaulqgp4.cloudfront.net/Memory/memory/IMG_9095.webp",
+      "key": "Memory/memory/IMG_9095.webp",
+      "title": "IMG 9095",
+      "folder": "memory",
+      "artist": "",
+      "museum": "",
+      "year": null
+    }
+  ]
+}

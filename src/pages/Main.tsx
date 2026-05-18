@@ -23,6 +23,8 @@ export default function Main() {
           <TrafficLightPole 
             onLightClick={() => navigate('/food')} 
             onMemoryClick={() => navigate('/memory')}
+            onMuseumClick={() => navigate('/museum')}
+            onGameClick={() => navigate('/game')}
           />
           
           {/* Subtle ground shadow for depth */}

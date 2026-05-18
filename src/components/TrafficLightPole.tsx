@@ -245,7 +245,7 @@ const FoodTrafficLight = ({ position, rotation, scale = [1, 1, 1], onClick, dire
   );
 };
 
-export default function TrafficLightPole({ onLightClick, onMemoryClick }: { onLightClick?: () => void, onMemoryClick?: () => void }) {
+export default function TrafficLightPole({ onLightClick, onMemoryClick, onMuseumClick, onGameClick }: { onLightClick?: () => void, onMemoryClick?: () => void, onMuseumClick?: () => void, onGameClick?: () => void }) {
   const poleRef = useRef<THREE.Group>(null);
 
   useFrame((state) => {
@@ -321,9 +321,9 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick }: { onLi
           iconColor="#ffffff"
           iconScaleMultiplier={1.3}
           title="MODULE 02"
-          subtitle="MUSEUM ARTIFACT"
-          actionText="COMING SOON"
-          onClick={(e: any) => { e.stopPropagation(); /* onMuseumClick */ }}
+          subtitle="MUSEUM COLLECTION"
+          actionText="CLICK TO VIEW GALLERY"
+          onClick={(e: any) => { e.stopPropagation(); onMuseumClick?.(); }}
           direction="left"
         />
 
@@ -355,8 +355,8 @@ export default function TrafficLightPole({ onLightClick, onMemoryClick }: { onLi
         iconColor="#ffffff"
         title="MODULE 04"
         subtitle="GAMING HUD"
-        actionText="COMING SOON"
-        onClick={(e: any) => { e.stopPropagation(); /* onGameClick */ }}
+        actionText="CLICK TO VIEW GALLERY"
+        onClick={(e: any) => { e.stopPropagation(); onGameClick?.(); }}
       />
 
     </group>
