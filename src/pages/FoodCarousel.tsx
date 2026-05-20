@@ -290,30 +290,6 @@ export default function FoodCarousel() {
         style={{ backgroundImage: `url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E")` }}
       />
 
-      {/* Spoon Pictogram (Left Center Background) */}
-      <div className="absolute left-10 top-1/2 -translate-y-1/2 pointer-events-none z-0 opacity-65 select-none">
-        <svg viewBox="0 0 100 200" className="w-12 h-24 stroke-neutral-700 fill-none stroke-[5]" strokeLinecap="round" strokeLinejoin="round">
-          <ellipse cx="50" cy="55" rx="25" ry="30" className="fill-neutral-300/35" />
-          <path d="M50 85 L50 175" />
-        </svg>
-      </div>
-
-      {/* Chopsticks Pictogram (Right Center Background) */}
-      <div className="absolute right-10 top-1/2 -translate-y-1/2 pointer-events-none z-0 opacity-65 select-none">
-        <svg viewBox="0 0 100 200" className="w-12 h-24 stroke-neutral-700 fill-none stroke-[5]" strokeLinecap="round" strokeLinejoin="round">
-          <line x1="40" y1="25" x2="40" y2="175" />
-          <line x1="60" y1="25" x2="60" y2="175" />
-        </svg>
-      </div>
-
-      {/* Concentric Plate Pictogram (Centered, directly behind the photo stack) */}
-      <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 opacity-45 select-none">
-        <svg viewBox="0 0 200 200" className="w-64 h-64 stroke-neutral-700 fill-none stroke-[3]">
-          <circle cx="100" cy="100" r="90" />
-          <circle cx="100" cy="100" r="55" />
-        </svg>
-      </div>
-
       {/* Back Button (Top Left) */}
       <button 
         onClick={() => navigate('/')}
